@@ -1,0 +1,1 @@
+Place licensed RB-Regular.woff2 and RB-Bold.woff2 files here, then enable the commented @font-face definitions in src/app/globals.css. RB is not included in this delivery. Cairo is the active local fallback.

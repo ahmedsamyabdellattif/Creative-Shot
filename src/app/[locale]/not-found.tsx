@@ -1,0 +1,1 @@
+export default function NotFound(){return <section className="container section"><p className="eyebrow">404</p><h1>الصفحة غير موجودة<br/>Page not found</h1><p><a className="button primary" href="/ar">الرئيسية</a> <a className="button quiet" href="/en">Home</a></p></section>}
