@@ -2,7 +2,7 @@ export type Locale = 'en' | 'ar';
 export type Text = { en: string; ar: string };
 export const t = (value: Text, locale: Locale) => value[locale];
 export const isLocale = (value: string): value is Locale => value === 'en' || value === 'ar';
-export const contact = { email: 'ahmed.samy.abdellattif@gmail.com', phone: '+966535242000', displayPhone: '+966 53 524 2673', whatsapp: 'https://wa.me/966535242000', behance: 'https://www.behance.net/ahmed_samy_', vimeo: 'https://vimeo.com/user217490771', portfolio: 'https://drive.google.com/file/d/1qGK5H3h33KQnoVWTmpzM3djEXbKTGpte/view?usp=share_link' };
+export const contact = { email: 'ahmed.samy.abdellattif@gmail.com', phone: '+966535242673', displayPhone: '+966 53 524 2673', whatsapp: 'https://wa.me/966535242673', behance: 'https://www.behance.net/ahmed_samy_', vimeo: 'https://vimeo.com/user217490771', portfolio: 'https://drive.google.com/file/d/1qGK5H3h33KQnoVWTmpzM3djEXbKTGpte/view?usp=share_link' };
 export const nav = [
  {slug:'',label:{en:'Home',ar:'الرئيسية'}},{slug:'work',label:{en:'Design Work',ar:'التصميمات الثابتة'}},{slug:'videos',label:{en:'Video Motion',ar:'الفيديو والموشن'}},{slug:'services',label:{en:'Services',ar:'الخدمات'}},{slug:'about',label:{en:'About',ar:'نبذة عني'}},{slug:'contact',label:{en:'Contact',ar:'تواصل معي'}}
 ];
